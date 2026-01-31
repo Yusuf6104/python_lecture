@@ -157,15 +157,6 @@ list.sort( reverse=True ) #sorts in descending order
 
 [3, 1, 2]
 
-List Methods
-
-list.remove(1) #removes first occurrence of element
-list = [2, 1, 3, 1]
-
-list.pop( idx ) #removes element at idx
-
-[2, 3, 1]
-
 # List Methods
 
 list.remove(1) #removes first occurrence of element
