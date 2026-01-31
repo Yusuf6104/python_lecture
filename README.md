@@ -101,8 +101,101 @@ str[-3 :-1] is "pl"
 # Conditional Statements
 if-elif-else(syntax)
 
-if(condition):Statement1
-elif(condition):Statement2
-else:StatementN
+if(condition):
+    Statement1
+elif(condition):
+    Statement2
+else:
+    Statement
+
+# List in python    
+
+A built-in data type that stores set of values 
+it can store elements of different types (integers,    float,string, etc )
+
+  *marks = [87, 64, 33, 44, 76]  marks[0], marks[1]...
+
+  *student = ["Karan",85,"delhi"] student[0],student[1]..
+
+  *student[0] = "Arjun"   -alloweded in python
+   
+  *len(student)
+
+list-> mutable
+string-> immutable  
+
+# List Slicing
+
+list_name[ starting_idx : ending_idx ] #ending idx is not included
+Similar to String Slicing
+
+marks = [87, 64, 33, 95, 76]
+
+marks[ 1 : 4 ] is [64, 33, 95]
+
+marks[ : 4 ] is same as marks[ 0 : 4]
+
+marks[ 1 : ] is same as marks[ 1 : len(marks) ]
+
+marks[ -3 : -1 ] is [33, 95]
+
+# List Methods
+
+list.append(4) #adds one element at the end
+list = [2, 1, 3]
+
+list.insert( idx, el ) #insert element at index
+list.sort( ) #sorts in ascending order
+
+list.reverse( ) #reverses list
+list.sort( reverse=True ) #sorts in descending order
+[1, 2, 3]
+
+[2, 1, 3, 4]
+
+[3, 2, 1]
+
+[3, 1, 2]
+
+List Methods
+
+list.remove(1) #removes first occurrence of element
+list = [2, 1, 3, 1]
+
+list.pop( idx ) #removes element at idx
+
+[2, 3, 1]
+
+# List Methods
+
+list.remove(1) #removes first occurrence of element
+list = [2, 1, 3, 1]
+
+list.pop( idx ) #removes element at idx
+
+# Tuples in Python
+
+A built-in data type that lets us create immutable sequences of values.
+
+tup = (87, 64, 33, 95, 76) #tup[0], tup[1]..
+
+tup[0] = 43 #NOT allowed in python
+
+tup1 = ( )
+
+tup2 = ( 1, )
+
+tup3 = ( 1, 2, 3 )
+
+# Tuple Methods
+
+tup.index( el ) #returns index of first occurrence
+tup = (2, 1, 3, 1)
+
+tup.count( el ) #counts total occurrences tup.count(1) is 2
+
+tup.index(1) is 2
+
+
 
  
