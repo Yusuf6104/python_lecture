@@ -187,6 +187,66 @@ tup.count( el ) #counts total occurrences tup.count(1) is 2
 
 tup.index(1) is 2
 
+# Dictionary in Python
 
+Dictionaries are used to store data values in key:value pairs
 
+“key” : value
+
+They are unordered, mutable(changeable) & don’t allow duplicate keys
+
+dict[”name”], dict[”cgpa”], dict[”marks”]
+
+dict[”key”] =
+
+“value” #to assign or add new
+
+# Dictionary in Python
+
+Nested Dictionaries
+
+student[”score”][”math”]
+
+# Dictionary Methods
+
+myDict.keys( ) #returns all keys
  
+myDict.values( ) #returns all values
+
+myDict.items( ) #returns all (key, val) pairs as tuples
+
+myDict.get( “key““ ) #returns the key according to value
+
+myDict.get( “key““ ) #re
+
+myDict.update( newDict ) #inserts the specified items to the dictionary\
+
+# Set in python
+
+Set is the collection of the unordered items.
+
+Each element in the set must be unique & immutable.
+
+nums = { 1, 2, 3, 4 }
+
+set2 = { 1, 2, 2, 2 }
+#repeated elements stored only once, so it resolved to {1,2} 
+
+null_set = set( ) #empty set syntax
+
+set pases tuple but
+set can't store list and dictionary
+
+# Set Methods
+
+set.add( el ) #adds an element
+
+set.remove( el ) #removes the elem an
+
+set.clear( ) #empties the set
+
+set.pop( ) #removes a random value
+
+set.union( set2 ) #combines both set values & returns new
+
+set.intersection( set2 ) #combines common values & returns new
