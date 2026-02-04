@@ -250,3 +250,16 @@ set.pop( ) #removes a random value
 set.union( set2 ) #combines both set values & returns new
 
 set.intersection( set2 ) #combines common values & returns new
+
+# Loops in Python
+
+Loops are used to repeat instructions.
+
+#while loop
+while condition :
+#some work
+
+print hello 5 times
+print numbers from 1 to 5
+
+show infinite, iterator
